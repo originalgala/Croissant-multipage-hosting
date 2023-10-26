@@ -1,5 +1,7 @@
 body {
     margin: 15px;
+    background-image: url("/images/Background.png");
+    
 }
 
 h1, h2 {
@@ -11,9 +13,30 @@ p {
     text-align: center;
 }
 
-.container {
+.homepage-paragraph {
     margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 167, 185, 0.5);
+    box-shadow: 5px 5px 10px rgb(249, 136, 99) ;
+    color: rgb(46, 10, 10);
+}
+
+.gallery {
+margin-top: 20px;
     padding: 20px;
 }
 
+.gallery img {
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px rgb(245, 119, 77)
 
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    margin: 0 10px;
+    color:rgb(75, 54, 6);
+}
